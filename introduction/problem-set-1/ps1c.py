@@ -1,3 +1,7 @@
+"""
+Solution for problem set 1 part c
+https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/mit6_0001f16_ps1/
+"""
 print('Enter your annual salary:',end=' ')
 initial_annual_salary = float(input())
 
