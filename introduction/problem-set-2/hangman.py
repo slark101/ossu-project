@@ -1,7 +1,9 @@
 # Problem Set 2, hangman.py
-# Name: 
+# Name: rusdi
 # Collaborators:
 # Time spent:
+# Solution for Problem Set 2
+# https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/resources/ps2/
 
 # Hangman Game
 # -----------------------------------
@@ -32,6 +34,7 @@ def load_words():
     # wordlist: list of strings
     wordlist = line.split()
     print("  ", len(wordlist), "words loaded.")
+    inFile.close()
     return wordlist
 
 
